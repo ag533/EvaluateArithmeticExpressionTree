@@ -1,5 +1,5 @@
 # EvaluateArithmeticExpressionTree
-This repository holds the refactored code for the Arithmetic expression tree ask.
+This repository holds the refactored code for the Arithmetic expression tree ask asked in part 2.
 
 ## Problem Statement :
 Apply your knowledge of good software design principles to refactor and improve the design of this code. Feel free to change anything in the file as part of your refactoring, apart from the final assertions that consume the tree.
@@ -80,3 +80,5 @@ updating data of the variable.
 ```
 Note I am creating spaerate classes so that they can be used independently in other class anad can be maintained and extended if necessary.
 ```
+3. Added the test case that was asked in the assert statement.
+For testing I might have used Junit tests but I am not adding then as this might take more than the given time. Although I have tested few cases by chnaging values in the given test case.
