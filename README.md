@@ -68,3 +68,10 @@ const tree = Node(
 assert.strictEqual("((7 + ((3 - 2) x 5)) ÷ 6)", tree.toString());
 assert.strictEqual(2, tree.result());
 ```
+
+## Approach:
+I will use Java in this task as JS is not strictly typed and I dont want to install TS in the repository to make my JS class strictly typed.
+
+
+1. First of all I will create a class to handle structure of the tree rather than just calling a class with functions with no types. This will help us to do effecient error checks and type checks which will be helpful in case of wrong input or errored input. I have also added getter and setter function for retrieving and 
+updating data of the variable.
